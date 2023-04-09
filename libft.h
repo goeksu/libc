@@ -13,6 +13,8 @@
 # define LIBFT_H
 
 # include <stddef.h>
+# include <stdarg.h>
+# include <unistd.h>
 
 typedef struct s_list
 {
@@ -76,5 +78,16 @@ int		ft_isspace(int c);
 int		ft_numlen(int n, int base);
 long	ft_atol(const char *str);
 char	*ft_itoa_base(int n, int base);
+
+/*printf*/
+
+int		ft_printf(const char *str, ...);
+void	ft_printf_char(char c, int *i);
+void	ft_printf_int(int nb, int *i);
+void	ft_printf_str(char *str, int *i);
+void	ft_printf_hex(unsigned long long nb, int *i);
+void	ft_printf_nb(unsigned int nb, int *i);
+void	ft_printf_base(unsigned int n, char *base, int *i);
+
 
 #endif
