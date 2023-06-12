@@ -1,6 +1,12 @@
 # libc
 Libft project as a recreation of LibC
 
+Used techs:
+C
+Makefile
+Shell
+clang
+
 Functions from <ctype.h>
 
  ft_isalpha - checks for an alphabetic character.
@@ -10,6 +16,7 @@ Functions from <ctype.h>
  ft_isprint - checks for any printable character.
  ft_toupper - convert char to uppercase.
  ft_tolower - convert char to lowercase.
+
 Functions from <string.h>
 
  ft_strlen - calculate the length of a string.
@@ -26,11 +33,13 @@ Functions from <string.h>
  ft_memcmp - compare memory areas.
  ft_strnstr - locate a substring in a string.
  ft_strdup - creates a duplicate for the string passed as a parameter.
-Functions from <stdlib.h>
+
+#Functions from <stdlib.h>
 
  ft_atoi - convert a string to an integer.
  ft_calloc - allocates memory and sets its bytes' values to 0.
-Non-standard functions
+
+#Non-standard functions
 
  ft_substr - returns a substring from a string.
  ft_strjoin - concatenates two strings.
@@ -43,7 +52,8 @@ Non-standard functions
  ft_putstr_fd - output a string to a file descriptor.
  ft_putendl_fd - output a string to a file descriptor, followed by a new line.
  ft_putnbr_fd - output a number to a file descriptor.
-Linked list functions
+
+#Linked list functions
 
  ft_lstnew - creates a new list element.
  ft_lstadd_front - adds an element at the beginning of a list.
@@ -55,7 +65,3 @@ Linked list functions
  ft_lstmap - applies a function to each element of a list.
 
 
-C
-Makefile
-Shell
-clang
